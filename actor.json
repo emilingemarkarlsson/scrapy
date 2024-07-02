@@ -1,0 +1,13 @@
+{
+    "name": "my-scrapy-actor",
+    "version": "0.0.1",
+    "buildTag": "latest",
+    "dockerfile": "./Dockerfile",
+    "env": {
+      "APIFY_MEMORY_MBYTES": "2048"
+    },
+    "input": {},
+    "output": {
+      "defaultDatasetId": "shl-dataset"
+    }
+  }
